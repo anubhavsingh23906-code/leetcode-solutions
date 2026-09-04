@@ -3,7 +3,7 @@ public:
     int firstStableIndex(vector<int>& nums, int k) {
         int n = nums.size();
 
-        // suffixMin[i] = minimum element from i to n-1
+        
         vector<int> suffixMin(n);
 
         suffixMin[n - 1] = nums[n - 1];
