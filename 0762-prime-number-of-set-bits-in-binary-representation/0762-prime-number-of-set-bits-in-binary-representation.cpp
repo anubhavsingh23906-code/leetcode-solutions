@@ -17,10 +17,10 @@ public:
 
         for (int num = left; num <= right; num++) {
 
-            // Count set bits
+          
             int bits = __builtin_popcount(num);
 
-            // Check if number of set bits is prime
+           
             if (isPrime(bits))
                 ans++;
         }
